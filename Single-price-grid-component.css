@@ -1,0 +1,109 @@
+@font-face{
+   font-family: "karla";
+   src: url("Karla-VariableFont_wght.ttf") format("truetype");
+ }
+ @media (max-width: 600px){
+.row{
+   flex-direction: column;
+  }
+ }
+ @media (min-width: 600px){
+   button:hover {
+      transform: scale(1.1);
+      transition-duration: 0.4s;
+   }
+ }
+body{
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+   background-color: rgb(214, 224, 224); 
+   font-family: 'karla';;
+}
+.main-content{
+   box-shadow: 0px 0px 13px hsl(0, 2%, 78%);
+}
+.row{
+   display: flex;
+}
+.first-card{
+   padding-left: 40px;
+   padding-right: 80px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background-color: white;
+   color: hsl(0, 0%, 72%);
+   font-size: 16px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+.second-card{
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background-color: hsl(179, 67%, 43%);
+   color: white;
+   border-bottom-left-radius: 5px;
+   flex-grow: 1;
+   flex-basis: 100%;
+   font-size: 16px;
+}
+.third-card{
+   padding-left: 40px;
+   padding-right: 40px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background-color: hsl(179, 43%, 56%);
+   color: rgb(240, 250, 250);
+   border-bottom-right-radius: 5px;
+   font-size: 16px;
+   flex-grow: 1;
+   flex-basis: 100%;
+}
+ul{
+   list-style: none;
+   padding: 0px;
+   color: hsl(180, 5%, 88%);
+   font-size: 16px;
+   line-height: 1.4;
+}
+h2{
+   color: hsl(179, 62%, 43%);
+}
+#yl{
+   color: hsl(71, 73%, 54%);
+   font-weight: bold;
+   font-size: larger;
+}
+.lh{
+   line-height: 1.7;
+}
+#pr{
+   display: flex;
+}
+#div-0{
+   font-size: xx-large;
+   font-weight: 500;
+}
+#div-1{
+   opacity: 0.5;
+   margin-left: 10px;
+   align-self: center;
+}
+button{
+   width: 100%;
+   background-color: hsl(71, 73%, 54%);
+   color: white;
+   font-size: 16px;
+   font-weight: bold;
+   text-align: center;
+   padding: 15px;
+   margin-bottom: 0px;
+   border-radius: 5px;
+   border: none;
+   box-shadow: 0px 8px 13px -8px hsl(179, 74%, 27%);
+}
+h4{
+   color: rgb(239, 243, 243);
+}
